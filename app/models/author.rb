@@ -1,3 +1,3 @@
 class Author < ActiveRecord::Base
-  has_many :posts, through: :author_id
+  has_many :posts
 end
